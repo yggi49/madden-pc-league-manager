@@ -1,0 +1,1096 @@
+/* main blocks */
+
+html, body {
+    font-family: Verdana, Arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: small;
+}
+
+body {
+    background: url("http://www.49ersfanzone.net/images/design/page_background.png") top left repeat #000000;
+    margin: 0 auto;
+    width: 96% !important;
+    max-width: 70em;
+    width: 70em;
+}
+
+/* =GENERAL STYLES */
+
+.hide {
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 1px;
+    top: -99999px;
+    left: -99999px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    margin: 0 2em;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+dt {
+    font-weight: bold;
+    margin: 0 0 1ex 0;
+}
+
+dd + dt {
+    margin-top: 1em;
+}
+
+dd {
+    margin: 0 0 0 4em;
+}
+
+dd.info {
+    margin-top: 1ex;
+}
+
+dd.error {
+    margin-top: 1ex;
+    color: #840026;
+    font-weight: bold;
+}
+
+form ul {
+    list-style-type: none;
+    margin: 1em 0 1ex 4em;
+}
+
+form dd ul {
+    margin-left: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 1ex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.float {
+    float: left;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+table.floatr {
+    float: right;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+tr.admin td, tr.admin th {
+    background: #840026;
+    color: white;
+}
+
+#content tr.admin a {
+    color: #c9b074;
+}
+
+br.float {
+    clear: both;
+}
+
+caption {
+    display: none;
+}
+
+td {
+    padding: .2ex 1ex;
+    color: #333333;
+}
+
+tbody td, tbody th {
+    border: 1px solid black;
+    background: #ffffff;
+}
+
+thead td, thead th {
+    text-align: center;
+    padding: .5ex;
+    font-weight: bold;
+    background: url("http://www.49ersfanzone.net/images/design/th_background.gif") top left repeat-x #000000;
+    color: #ffffff;
+}
+
+tbody tr {
+    background: #c9b074;
+}
+
+tbody tr.even {
+    background: #ffffff;
+}
+
+/* navigation */
+
+#navbar {
+    background: url("http://www.49ersfanzone.net/images/design/header_background.png") top left repeat-x #000000;
+    float: left;
+    width: 100%;
+}
+
+#navbar ul {
+    float: left;
+    width: 100%;
+    background: url("http://www.49ersfanzone.net/images/design/header.jpg") 0 -1px no-repeat transparent;
+    border: 1px solid #000000;
+    border-width: 1px 0 1px 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 266px;
+    list-style-type: none ! important;
+}
+
+#navbar li {
+    float: left;
+    position: relative;
+}
+
+#navbar a {
+    cursor: pointer;
+    display: block;
+    color: #c9b074;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1ex;
+}
+
+#navbar a:hover {
+    color: #000000;
+    background: #c9b074;
+}
+
+#navbar > li:hover > a {
+    color: #000000;
+    background: #c9b074;
+}
+
+/* content */
+
+#content {
+    background: #c9b074;
+    border: 1px solid #ffffff;
+    border-top: 0;
+    padding: 1ex 2px 2px 2px;
+    clear: both;
+    margin-bottom: 1ex;
+}
+
+#content a {
+    color: #840026;
+}
+
+p {
+    margin: 1ex;
+    text-align: center;
+}
+
+p.opendate {
+    text-align: left;
+}
+
+/* season switcher */
+
+#switcher, form.paypal {
+    color: #ffffff;
+    background: #481011;
+    border: 1px solid #ffffff;
+}
+
+#switcher {
+    clear: both;
+    border-bottom: 0;
+    margin: 0;
+    padding: 1ex 0;
+}
+
+#switcher a {
+    color: #c9b074;
+}
+
+form.paypal {
+    border-top: 0;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1ex;
+    margin-bottom: 1em;
+}
+
+form.paypal p {
+    margin: 0;
+    padding: 0;
+}
+
+form.paypal input.submit {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #c9b074;
+    background: #481011;
+    font-family: Verdana, Arial, helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form.paypal input:hover {
+    text-decoration: underline;
+}
+
+/* home page */
+
+div.sidebar {
+  float: right;
+  width: 20%;
+}
+
+div.latest {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #ffffff;
+  border: 1px solid #000000;
+  float: right;
+  text-align: left;
+  width: 170px;
+}
+
+div.latest h1 {
+  margin: 0;
+  padding: 2px;
+  font-size: 100%;
+  background: url("http://www.49ersfanzone.net/images/design/th_background.gif") top left repeat-x #000000;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+    color: #ffffff;
+}
+
+div.latest p {
+  font-style: italic;
+}
+
+div.latest ul {
+  list-style: none;
+  padding: 0;
+    margin: 0;
+}
+
+div.latest hr {
+  height: 1px;
+  background: #000000;
+}
+
+div.news {
+  width: 75%;
+}
+
+div.news h1 {
+  display: none;
+}
+
+div.news hr {
+  display: none;
+  height: 0;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+div.message h2 {
+  background: url("http://www.49ersfanzone.net/images/design/news_headline_background.gif") -10px -2px no-repeat #000000;
+  color: #c9b074;
+  font-size: 100%;
+  border: 0;
+  margin: 0;
+  padding: .5ex .5ex .5ex 35px;
+  letter-spacing: 1px;
+}
+
+div.message img {
+    max-width: 80%;
+}
+
+div.message {
+  background: #ffffff;
+  border: 1px solid #000000;
+  margin-top: 1em;
+  float: left;
+  width: 100%;
+}
+
+div.message div.head {
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+
+div.message p.date {
+  float: right;
+}
+
+div.message p {
+  padding: 0 2px;
+  text-align: left;
+}
+
+div.message p strong {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+}
+
+div.message p img {
+  float: right;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+
+
+
+/* score tables */
+
+table.score {
+  width: 48%;
+}
+
+table.score.extended {
+  width: 80%;
+}
+
+table.score.extended thead th {
+    width: 5%;
+}
+
+table.score.extended th.game {
+  width: 12%;
+}
+
+table.score.extended th.coach {
+    width: 20%;
+}
+
+table.score.extended thead td {
+    width: 25%;
+}
+
+table.score thead th {
+  font-weight: bold;
+  text-align: center;
+  width: 8%;
+}
+
+table.score thead td {
+  font-weight: normal;
+  text-align: left;
+  width: 40%;
+}
+
+table.score tbody th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.score tbody th span.record {
+  font-weight: normal;
+}
+
+table.score tbody td {
+  font-weight: normal;
+  text-align: center;
+}
+
+table.score tbody td.final {
+  font-weight: bold;
+}
+
+table.score tbody.stats td {
+  text-align: left;
+  background: #d9c79d;
+}
+
+table.score tbody.links td {
+  background: #d9c79d;
+}
+
+table.score em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* weekly leaders */
+
+table.leaders {
+  margin-top: 1em;
+  width: 32%;
+}
+
+table.leaders tbody th {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.leaders tbody td {
+  text-align: right;
+}
+
+table.leaders tbody td.image {
+  text-align: center;
+  width: 60px;
+}
+
+table.leaders img {
+  width: 60px;
+}
+
+
+
+/* recaps */
+
+.boxed {
+  border: 1px solid black;
+  padding: 1ex;
+  width: 80%;
+}
+
+h2.boxed {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("http://www.49ersfanzone.net/images/design/th_background.gif") top left repeat-x #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  padding: .5ex;
+}
+
+p.boxed {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background: #ffffff;
+}
+
+p.boxed.no {
+  font-style: italic;
+}
+
+p.boxed strong {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+}
+
+p.boxed .edit {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+  float: right;
+}
+
+p.boxed img {
+  float: right;
+}
+
+
+
+/* standings table */
+
+table.standings {
+    width: 97%;
+}
+
+table.standings tr.spacer td {
+  height: 1em;
+  border: 1px solid #c9b074;
+  border-width: 0 1px;
+  background: #c9b074;
+}
+
+table.standings tbody.head th {
+  background: url("http://www.49ersfanzone.net/images/design/th_background.gif") top left repeat-x #000000;
+  color: white;
+  text-align: center;
+}
+
+table.standings tbody th {
+  text-align: left;
+}
+
+table.standings tbody td {
+  text-align: center;
+}
+
+table.standings tr.noplayoffs td, table.standings tr.noplayoffs th {
+    background: #d9c79d;
+}
+
+
+
+/* records */
+
+.index {
+  margin-top: 1em;
+  width: 720px;
+  border: 1px solid #000000;
+  background: #ffffff;
+  padding: 2px 3px;
+}
+
+.index ul {
+  list-style: none;
+}
+
+.index li {
+  display: block;
+  float: left;
+  width: 350px;
+  text-align: left;
+}
+
+.records h1 {
+  clear: both;
+}
+
+.records table {
+  width: 230px;
+}
+
+.records td.name {
+  width: 140px;
+}
+
+.records td.image {
+  vertical-align: top;
+  text-align: center;
+  width: 60px;
+}
+
+.records td.value {
+  text-align: right;
+  width: 30px;
+}
+
+.records td span.annotate {
+  font-size: 80%;
+}
+
+/* calendar */
+
+div.calendar h1 {
+  text-align: left;
+}
+
+div.calendar ul {
+  margin-left: 2em;
+  list-style: none;
+  text-align: left;
+}
+
+
+
+/* roster table */
+
+table.roster tbody th {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.roster tbody td {
+  text-align: center;
+}
+
+div.roster {
+    position: relative;
+  width: 750px;
+  height: 64em;
+  border: 1px solid black;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.roster div {
+  left: 10px;
+  position: absolute;
+  width: 80px;
+  height: 7em;
+  border: 1px solid black;
+  background: #840026;
+    color: white;
+/*  overflow: hidden; */
+}
+
+div.roster p {
+  font-weight: bold;
+}
+
+div.roster div.info {
+  display: none;
+  border: 1px solid black;
+  background: #ffffcc;
+  color: black;
+  width: 130px;
+  height: auto;
+  z-index: 300;
+  padding: 0 2px 2px 2px;
+/*  position: absolute;
+  top: 100px;
+  left: 100px; */
+}
+
+div.roster ol, div.roster ul {
+  list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.info img {
+  float: left;
+  margin-right: 2px;
+}
+
+div.info li {
+  text-align: left;
+}
+
+div.roster li {
+  cursor: pointer;
+}
+
+div.roster div.qb {
+  margin-top: 40em;
+  margin-left: 287px;
+}
+
+div.roster div.hb {
+  margin-top: 56em;
+  margin-left: 287px;
+}
+
+div.roster div.fb {
+  margin-top: 48em;
+  margin-left: 287px;
+}
+
+div.roster div.wr1 {
+  margin-top: 36em;
+  margin-left: 655px;
+}
+
+div.roster div.wr2 {
+  margin-top: 32em;
+  margin-left: 4px;
+}
+
+div.roster div.te {
+  margin-top: 32em;
+  margin-left: 542px;
+}
+
+div.roster div.lt {
+  margin-top: 32em;
+  margin-left: 117px;
+}
+
+div.roster div.lg {
+  margin-top: 32em;
+  margin-left: 202px;
+}
+
+div.roster div.c {
+  margin-top: 32em;
+  margin-left: 287px;
+}
+
+div.roster div.rg {
+  margin-top: 32em;
+  margin-left: 372px;
+}
+
+div.roster div.rt {
+  margin-top: 32em;
+  margin-left: 457px;
+}
+
+div.roster div.re {
+  margin-top: 24em;
+  margin-left: 127px;
+}
+
+div.roster div.rdt {
+  margin-top: 24em;
+  margin-left: 257px;
+}
+
+div.roster div.ldt {
+  margin-top: 24em;
+  margin-left: 387px;
+}
+
+div.roster div.le {
+  margin-top: 24em;
+  margin-left: 517px;
+}
+
+div.roster div.rolb {
+  margin-top: 16em;
+  margin-left: 122px;
+}
+
+div.roster div.mlb {
+  margin-top: 14em;
+  margin-left: 302px;
+}
+
+div.roster div.lolb {
+  margin-top: 16em;
+  margin-left: 472px;
+}
+
+div.roster div.cb1 {
+  margin-top: 22em;
+  margin-left: 655px;
+}
+
+div.roster div.cb2 {
+  margin-top: 22em;
+  margin-left: 4px;
+}
+
+div.roster div.fs {
+  margin-top: 1em;
+  margin-left: 202px;
+}
+
+div.roster div.ss {
+  margin-top: 4em;
+  margin-left: 402px;
+}
+
+div.roster div.k {
+  margin-top: 56em;
+  margin-left: 570px;
+}
+
+div.roster div.p {
+  margin-top: 56em;
+  margin-left: 655px;
+}
+
+
+
+
+/* stats tables */
+
+table.stats tbody td {
+  font-weight: normal;
+  text-align: center;
+}
+
+table.stats tbody.filter td {
+  text-align: center;
+}
+
+table.stats tbody td.pos {
+  text-align: center;
+}
+
+table.stats tbody td.name,
+table.stats tbody td.team {
+  text-align: left;
+}
+
+table.stats tbody td.order {
+  background: #c9b074;
+}
+
+table.stats thead th,
+table.stats tbody.filter th,
+table.stats tbody.filter td,
+table.stats tbody.header th,
+table.stats tbody tr.user th,
+table.stats tbody tr.user td {
+    background: url("http://www.49ersfanzone.net/images/design/th_background.gif") top left repeat-x #000000;
+    color: #ffffff;
+}
+
+/* box score - team stats */
+
+table.boxteam {
+  margin-bottom: 1em;
+    width: 50%;
+}
+
+table.boxteam thead th {
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.boxteam thead td {
+  width: 50%;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxteam tbody td {
+  font-weight: bold;
+  text-align: right;
+}
+
+table.boxteam tbody th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxteam tbody tr.sub th {
+  font-weight: normal;
+  padding-left: 2em;
+}
+
+table.boxteam tbody tr.sub td {
+  font-weight: normal;
+}
+
+/* box score - individual stats */
+
+table.boxind {
+  width: 47%;
+}
+
+table.boxind.head td {
+    background: url("http://www.49ersfanzone.net/images/design/th_background.gif") top left repeat-x #000000;
+    color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table.boxind thead td {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxind thead th {
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+  white-space: nowrap;
+}
+
+table.boxind tbody th {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.boxind tbody td {
+  font-weight: normal;
+  text-align: right;
+}
+
+table.boxind tbody tr.no td {
+  text-align: left;
+}
+
+/* team schedule */
+
+table.teamsked tbody td {
+  text-align: center;
+}
+
+table.teamsked tbody th {
+  text-align: left;
+  font-weight: normal;
+}
+
+
+
+/* head 2 head profiles */
+
+table.head2head {
+    width: 95%;
+}
+
+table.head2head tbody th {
+  text-align: left;
+  width: 20%;
+}
+
+table.head2head tbody td {
+  text-align: center;
+  width: 16%;
+}
+
+table.head2head span {
+  cursor: pointer;
+}
+
+table.head2head ul {
+    margin: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  list-style: none;
+  text-align: left;
+  border: 1px solid black;
+  background: #c9b074;
+  display: none;
+}
+
+table.head2head li {
+  white-space: nowrap;
+}
+
+
+
+/* player profile */
+
+dl.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 1px solid black;
+  background: #ffffff;
+}
+
+dl.profile dt {
+  font-weight: bold;
+  border-right: 1px solid black;
+  background: #840026;
+    color: #ffffff;
+
+  padding: 2px;
+  float: left;
+  width: 25%;
+  height: 20px;
+  line-height: 20px;
+    margin: 0;
+  margin-right: 4px;
+  text-align: left;
+}
+
+dl.profile dd {
+    margin: 0;
+  padding: 2px;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+}
+
+dl.profile img {
+  vertical-align: top;
+  margin: 1px;
+}
+
+p.profile {
+  background: #ffffff;
+  border: 1px solid black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 2px;
+}
+
+
+
+
+/* diff tables */
+
+table.diff {
+  width: 95%;
+}
+
+table.diff td {
+  width: 45%;
+}
+
+table.diff td.line {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+  background: #c9b074;
+}
+
+/* teams tables */
+
+table.teams {
+  width: 48%;
+}
+
+table.teams tbody th {
+  width: 60%;
+  text-align: left;
+}
+
+table.teams tbody td {
+  width: 40%;
+}
+
+
+
+
+/* form styles */
+
+input, select, textarea {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+textarea {
+  width: 60%;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+}
+
+input.radio, input.checkbox {
+  border: 0;
+}
+
+form dl {
+  clear: both;
+  margin: 3px 0;
+}
+
+form dt {
+  float: left;
+  text-align: right;
+  width: 9em;
+}
+
+form dd {
+  margin-left: 9.24em;
+  text-align: left;
+}
+

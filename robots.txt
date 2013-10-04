@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /stats.html
+Disallow: /stats.html?

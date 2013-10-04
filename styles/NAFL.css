@@ -1,0 +1,1103 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background: url('NAFL/background.gif') #123;
+}
+
+body {
+  width: 758px;
+}
+
+body, td, th {
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  font-size: .8125em;
+}
+body > #content > table > thead > tr > th {
+  font-size: 1em;
+  color: #FFFFFF;
+}
+body > #content > table > tbody > tr > td,
+body > #content > table > tbody > tr > th,
+body > #content > table > thead > tr > td {
+  font-size: 1em;
+  
+}
+
+td {
+  text-align: left;
+}
+
+th {
+  text-align: center;
+}
+
+h1 {
+  font-size: 120%;
+  margin: 2ex 0 1ex;
+}
+
+a:link, a:visited {
+  color: #8facc9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover, a:active {
+  color: #476C8E;
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+div.times {
+  float: right;
+}
+
+div.times p {
+  text-align: right;
+  margin: 0;
+}
+
+div.times p.log {
+  font-size: 80%;
+  color:#fff;
+}
+
+p {
+  margin: 1ex 0;
+  text-align: center;
+  color:#fff;
+}
+
+p.opendate {
+  text-align: left;
+
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+/* head 2 head profiles */
+
+table.head2head tbody th {
+  text-align: left;
+  width: 120px;
+}
+
+table.head2head tbody td {
+  text-align: center;
+  width: 80px;
+}
+
+/* home page */
+
+div.sidebar {
+  float: right;
+  width: 150px;
+}
+
+div.latest {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #000;
+  border: 1px solid #000000;
+  width: 150px;
+  float: right;
+  text-align: left;
+}
+
+div.latest h1 {
+  margin: 0;
+  padding: 2px;
+  background: #660000;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}
+
+div.latest p {
+  font-style: italic;
+}
+
+div.latest ul {
+  list-style: none;
+  padding: 2px;
+}
+
+div.latest hr {
+  height: 1px;
+  background: #000000;
+}
+
+div.news {
+  width: 580px;
+}
+
+div.news h1 {
+  display: none;
+}
+
+div.news hr {
+  display: none;
+  height: 0;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+div.message h2 {
+  font-size: 120%;
+  border: 0;
+  margin: 0;
+  padding: 2px;
+}
+
+div.message {
+  background: #000;
+  border: 1px solid #000000;
+  margin-top: 1em;
+}
+
+div.message div.head {
+  background: #003466;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+
+div.message p.date {
+  float: right;
+  color: #ffffff;
+}
+
+div.message p {
+  padding: 0 2px;
+  text-align: left;
+}
+
+div.message p strong {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+}
+
+div.message p img {
+  float: right;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+/* recaps */
+
+.boxed {
+  border: 1px solid black;
+  padding: 3px;
+  width: 600px;
+}
+
+h2.boxed {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background: #003466;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+p.boxed {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background: #000;
+}
+
+p.boxed.no {
+  font-style: italic;
+}
+
+p.boxed strong {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+}
+
+p.boxed .edit {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+  float: right;
+}
+
+p.boxed img {
+  float: right;
+}
+
+/* player profile */
+
+dl.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border: 1px solid black;
+  background: #000;
+}
+
+dl.profile dt {
+  font-weight: bold;
+  border-right: 1px solid black;
+  background: #73111e;
+  padding: 2px;
+  float: left;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 4px;
+  text-align: left;
+  color:#FFFFFF;
+}
+
+dl.profile dd {
+  padding: 2px;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+  color:#fff;
+}
+
+dl.profile img {
+  vertical-align: top;
+  margin: 1px;
+}
+
+p.profile {
+  background: #000;
+  border: 1px solid black;
+  width: 396px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 2px;
+}
+
+/* navigation */
+
+#navbar
+{
+  background: url('NAFL/header.gif') no-repeat;
+  height: 125px;
+  width: 758px;
+  font-size:12px;
+}
+
+#navbar ul {
+  padding-top: 55px;
+  text-align: center;
+  margin-left: 80px;
+  width:600px;
+  
+}
+
+#navbar li {
+  line-height: 19px;
+  display: inline;
+  padding: 0 .3em;
+}
+
+#navbar a:link, #navbar a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:active {
+  text-decoration: underline;
+}
+
+/* content area */
+
+#content {
+  width: 738px;
+  margin: 0 10px;
+  text-align: center;
+  color:#fff;
+
+}
+
+#endcontent {
+  display: none;
+}
+
+#help {
+  width: 738px;
+  margin: 0 10px;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+/* season switcher */
+
+#switcher {
+  background: #660000;
+
+  border: 1px solid #000000;
+  color:#FFFFFF;
+  border-width: 1px 0;
+  width: 758px;
+  line-height: 2;
+  text-align: center;
+  margin: 1em 0;
+  clear: both;
+}
+
+#switcher a:link, #switcher a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#switcher a:hover, #switcher a:active {
+  text-decoration: underline;
+}
+
+/* status line */
+
+#status {
+color:#fff;
+width: 756px;
+  padding-bottom: 1em;
+}
+
+/* general table styles */
+
+table {
+  border-collapse: collapse;
+  margin: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead td, thead th,
+tfoot td, tfoot th,
+tr.admin td, tr.admin th {
+  background: #003466;
+  color: #FFFFFF;
+
+}
+
+tr.admin td, tr.admin th {
+  background: #73111E;
+  color: #FFFFFF;
+
+}
+
+
+tr.admin a {
+  color: white;
+}
+
+td, th {
+  border: 1px solid #000000;
+  background: #000;
+  padding: 3px 2px;
+}
+
+table.float {
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+table.floatr {
+  float: right;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+br.float {
+clear: both;
+}
+
+/* form styles */
+
+input, select, textarea {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+textarea {
+  width: 400px;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+}
+
+input.submit {
+  background: #acacac;
+}
+
+input.radio, input.checkbox {
+  border: 0;
+}
+
+form dl {
+  clear: both;
+  margin: 3px 0;
+
+}
+
+form dt {
+  float: left;
+  text-align: right;
+  width: 9em;
+}
+
+form dd {
+  margin-left: 9.24em;
+  text-align: left;
+}
+
+/* news tables */
+
+table.news {
+  width: 600px;
+}
+
+table.news .actions {
+  width: 50px;
+  text-align: center;
+}
+
+table.news .date {
+  width: 150px;
+  text-align: center;
+  color:#fff;
+}
+
+/* diff tables */
+
+table.diff {
+  width: 740px;
+}
+
+table.diff td {
+  width: 350px;
+
+}
+
+table.diff td.line {
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  background: #990a31;
+}
+
+/* teams tables */
+
+table.teams {
+  width: 350px;
+}
+
+table.teams tbody th {
+  width: 225px;
+  text-align: left;
+}
+
+table.teams tbody td {
+  width: 125px;
+}
+
+/* weekly leaders */
+
+table.leaders {
+  margin-top: 1em;
+  color:#fff;
+  width: 235px;
+}
+
+table.leaders tbody th {
+  font-weight: normal;
+  color:#fff;
+  text-align: left;
+}
+
+table.leaders tbody td {
+  text-align: right;
+  color:#fff;
+  width: 4ex;
+}
+
+table.leaders tbody td.image {
+  text-align: center;
+  color:#000000;
+  width: 60px;
+}
+
+table.leaders img {
+  width: 60px;
+}
+
+/* standings table */
+
+table.standings {
+  width: 730px;
+}
+
+table.standings tr.spacer td {
+  height: 1ex;
+  border: 0;
+  background: #123;
+}
+
+table.standings tbody.head th {
+  background: #003466;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+table.standings tbody th {
+  text-align: left;
+}
+
+table.standings tbody td {
+  text-align: center;
+  color:#fff;
+}
+
+/* stats tables */
+
+table.stats tbody td {
+  font-weight: normal;
+  text-align: center;
+  color:#fff;
+
+}
+
+table.stats tbody.filter td {
+  text-align: center;
+}
+
+table.stats tbody td.pos {
+  text-align: center;
+}
+
+table.stats tbody td.name,
+table.stats tbody td.team {
+  text-align: left;
+}
+
+table.stats tbody td.order {
+  background: #003466;
+  color:#FFFFFF;
+}
+
+table.stats thead th,
+table.stats tbody.filter th,
+table.stats tbody.filter td,
+table.stats tbody.header th {
+  background: #003466;
+  color: #FFFFFF;
+
+  }
+
+table.stats tbody tr.user th,
+table.stats tbody tr.user td {
+  background: #73111e;
+  color: #FFFFFF;
+
+  }
+
+
+/* score tables */
+
+table.score {
+  width: 350px;
+  color:#fff;
+}
+
+table.score.extended {
+  width: 650px;
+  color:#FFFFFF;
+}
+
+table.score.extended th.game {
+  width: 75px;
+  color:#FFFFFF;
+}
+
+table.score.extended th.coach {
+  width: 150px;
+  color:#FFFFFF;
+}
+
+table.score thead th {
+  font-weight: bold;
+  text-align: center;
+  width: 30px;
+
+}
+
+table.score thead td {
+  font-weight: normal;
+  text-align: left;
+  width: 150px;
+
+}
+
+table.score tbody th {
+  font-weight: bold;
+  text-align: left;
+  color:#fff;
+}
+
+table.score tbody th span.record {
+  font-weight: normal;
+
+}
+
+table.score tbody td {
+  font-weight: normal;
+  text-align: center;
+  color:#fff;
+}
+
+table.score tbody td.final {
+  font-weight: bold;
+}
+
+table.score tbody.stats td {
+  text-align: left;
+}
+
+table.score em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* box score - team stats */
+
+table.boxteam {
+  margin-bottom: 1em;
+}
+
+table.boxteam thead th {
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.boxteam thead td {
+  width: 200px;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxteam tbody td {
+  font-weight: bold;
+  text-align: right;
+  color:#fff;
+}
+
+table.boxteam tbody th {
+  font-weight: bold;
+  text-align: left;
+  color:#fff;
+}
+
+table.boxteam tbody tr.sub th {
+  font-weight: normal;
+  padding-left: 2em;
+}
+
+table.boxteam tbody tr.sub td {
+  font-weight: normal;
+}
+
+/* box score - individual stats */
+
+table.boxind {
+  width: 355px;
+}
+
+table.boxind.head td {
+  background: #003466;
+  font-weight: bold;
+  text-align: center;
+  color:#FFFFFF;
+  text-transform: uppercase;
+}
+
+table.boxind thead td {
+  font-weight: bold;
+  text-align: left;
+  }
+
+table.boxind thead th {
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+  white-space: nowrap;
+}
+
+table.boxind tbody th {
+  font-weight: normal;
+  text-align: left;
+  color:#fff;
+}
+
+table.boxind tbody td {
+  font-weight: normal;
+  text-align: right;
+  color:#fff;
+}
+
+table.boxind tbody tr.no td {
+  text-align: left;
+}
+
+/* team schedule */
+
+table.teamsked tbody td {
+  text-align: center;
+  color:#fff;
+}
+
+table.teamsked tbody th {
+  text-align: left;
+  font-weight: normal;
+  color:#fff;
+
+}
+
+/* pickem schedule/results/standings */
+
+table.picksked input,
+table.picksked .pick,
+table.picksked tfoot td {
+  text-align: center;
+}
+
+table.pickres thead td,
+table.pickres tfoot td {
+  text-align: center;
+  font-size: 80%;
+}
+
+table.pickres tbody td {
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+}
+
+table.pickres tbody td.pos,
+table.pickres tbody td.points,
+table.pickres tbody td.record {
+  color: #fff;
+
+  text-align: right;
+}
+
+table.pickres tbody td.name {
+  color: #fff;
+  text-align: left;
+}
+
+table.pickres tbody td.right {
+  color: #fff;
+}
+
+table.pickres tbody td.away {
+  background:#467;
+}
+
+table.pickres em {
+  font-style: normal;
+  font-size: 80%;
+}
+
+table.pickres tr.user td {
+  background: #73111e;
+}
+
+/* roster table */
+
+table.roster tbody th {
+  font-weight: normal;
+  text-align: left;
+  color:#fff;
+
+}
+
+table.roster tbody td {
+  text-align: center;
+  color:#fff;
+
+}
+
+div.roster {
+  width: 740px;
+  height: 64em;
+  border: 1px solid black;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.roster div {
+  left: 10px;
+  position: absolute;
+  width: 80px;
+  height: 7em;
+  border: 1px solid black;
+  background: #73111e;
+  color:#FFFFFF;
+/*  overflow: hidden; */
+}
+
+div.roster p {
+  font-weight: bold;
+}
+
+div.roster div.info {
+  display: none;
+  border: 1px solid black;
+  background: #000;
+  color: #fff;
+  width: 130px;
+  height: auto;
+  z-index: 300;
+  padding: 0 2px 2px 2px;
+/*  position: absolute;
+  top: 100px;
+  left: 100px; */
+}
+
+div.roster ol, div.roster ul {
+list-style: none;
+
+}
+
+div.info img {
+  float: left;
+  margin-right: 2px;
+}
+
+div.info li {
+  text-align: left;
+  }
+
+div.roster li {
+  cursor: pointer;
+}
+
+div.roster div.qb {
+  margin-top: 40em;
+  margin-left: 287px;
+}
+
+div.roster div.hb {
+  margin-top: 56em;
+  margin-left: 287px;
+}
+
+div.roster div.fb {
+  margin-top: 48em;
+  margin-left: 287px;
+}
+
+div.roster div.wr1 {
+  margin-top: 36em;
+  margin-left: 655px;
+}
+
+div.roster div.wr2 {
+  margin-top: 32em;
+  margin-left: 4px;
+}
+
+div.roster div.te {
+  margin-top: 32em;
+  margin-left: 542px;
+}
+
+div.roster div.lt {
+  margin-top: 32em;
+  margin-left: 117px;
+}
+
+div.roster div.lg {
+  margin-top: 32em;
+  margin-left: 202px;
+}
+
+div.roster div.c {
+  margin-top: 32em;
+  margin-left: 287px;
+}
+
+div.roster div.rg {
+  margin-top: 32em;
+  margin-left: 372px;
+}
+
+div.roster div.rt {
+  margin-top: 32em;
+  margin-left: 457px;
+}
+
+div.roster div.re {
+  margin-top: 24em;
+  margin-left: 127px;
+}
+
+div.roster div.rdt {
+  margin-top: 24em;
+  margin-left: 257px;
+}
+
+div.roster div.ldt {
+  margin-top: 24em;
+  margin-left: 387px;
+}
+
+div.roster div.le {
+  margin-top: 24em;
+  margin-left: 517px;
+}
+
+div.roster div.rolb {
+  margin-top: 16em;
+  margin-left: 122px;
+}
+
+div.roster div.mlb {
+  margin-top: 14em;
+  margin-left: 302px;
+}
+
+div.roster div.lolb {
+  margin-top: 16em;
+  margin-left: 472px;
+}
+
+div.roster div.cb1 {
+  margin-top: 22em;
+  margin-left: 655px;
+}
+
+div.roster div.cb2 {
+  margin-top: 22em;
+  margin-left: 4px;
+}
+
+div.roster div.fs {
+  margin-top: 1em;
+  margin-left: 202px;
+}
+
+div.roster div.ss {
+  margin-top: 4em;
+  margin-left: 402px;
+}
+
+div.roster div.k {
+  margin-top: 56em;
+  margin-left: 570px;
+}
+
+div.roster div.p {
+  margin-top: 56em;
+  margin-left: 655px;
+}
+
+/* paypal */
+
+form.paypal {
+  margin: 0;
+  margin-top: 1ex;
+
+}
+
+form.paypal input.submit {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: #8facc9;
+  background: #123;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+/* records */
+
+.index {
+  margin-top: 1em;
+  width: 720px;
+  border: 1px solid #000000;
+  background: #000;
+  padding: 2px 3px;
+}
+
+.index ul {
+  list-style: none;
+}
+
+.index li {
+  display: block;
+  float: left;
+  width: 350px;
+  text-align: left;
+}
+
+.records h1 {
+  clear: both;
+}
+
+.records table {
+  width: 230px;
+}
+
+.records td.image {
+  vertical-align: top;
+  text-align: center;
+  width: 60px;
+}
+
+.records td.value {
+  text-align: right;
+  width: 30px;
+}
+
+.records td {
+  width: 140px;
+}
+
+/* calendar */
+
+div.calendar h1 {
+  text-align: left;
+}
+
+div.calendar ul {
+  margin-left: 2em;
+  list-style: none;
+  text-align: left;
+}

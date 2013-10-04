@@ -1,0 +1,1156 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background: url('GFFL/background.gif') #186b8c;
+}
+
+body {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+body, td, th {
+  font-family: Arial, helvetica, sans-serif;
+  font-size: .8125em;
+}
+
+body > #content > table > tbody > tr > td,
+body > #content > table > tbody > tr > th,
+body > #content > table > thead > tr > td,
+body > #content > table > thead > tr > th {
+  font-size: 1em;
+}
+
+td {
+  text-align: left;
+}
+
+th {
+  text-align: center;
+}
+
+h1 {
+  font-size: 120%;
+  margin: 2ex 0 1ex;
+}
+
+a:link, a:visited {
+  color: #0c3d4d;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: #186b8c;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+div.times {
+  float: right;
+  padding: 1ex 0;
+}
+
+div.times p {
+  text-align: right;
+  margin-right: 1ex;
+  padding: 0;
+}
+
+div.times p.log {
+  font-size: 80%;
+}
+
+p {
+  padding: 1ex 0;
+  text-align: center;
+}
+
+p.opendate {
+  margin-left: 1ex;
+  text-align: left;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+
+/* navigation */
+
+#navbar {
+  background: url('GFFL/header.jpg') no-repeat;
+  height: 230px;
+  width: 750px;
+  border: 1px solid black;
+  border-width: 0 1px;
+}
+
+#navbar ul {
+  padding-top: 170px;
+  text-align: left;
+  line-height: 30px;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+  padding: 0 .5em;
+  border-right: 1px solid #000d0d;
+  height: 29px;
+  line-height: 29px;
+}
+
+#navbar > ul > li {
+  float: left;
+  display: block;
+}
+
+#navbar a:link, #navbar a:visited {
+  color: #ddeeee;
+  text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:active {
+  text-decoration: underline;
+}
+
+/* content area */
+
+#content {
+  width: 750px;
+  border: 1px solid black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-width: 0 1px;
+  background: white;
+  text-align: center;
+  clear: both;
+}
+
+/* season switcher */
+
+#switcher {
+  width: 750px;
+  border: 1px solid black;
+  border-width: 0 1px;
+  padding-top: 1ex;
+  text-align: center;
+  background: url('GFFL/switcher.gif') repeat-x #186b8c;
+  color: #aabbbb;
+  clear: both;
+}
+
+#switcher a:link, #switcher a:visited {
+  color: #ddeeee;
+  text-decoration: none;
+}
+
+#switcher a:hover, #switcher a:active {
+  text-decoration: underline;
+}
+
+/* status line */
+
+#status {
+  width: 750px;
+  border: 1px solid black;
+  border-width: 0 1px;
+  border-bottom: 2px solid black;
+  color: #aabbbb;
+  background: #186b8c;
+  text-align: center;
+  padding: 1ex 0;
+}
+
+/* head 2 head profiles */
+
+table.head2head tbody th {
+  text-align: left;
+  width: 120px;
+}
+
+table.head2head tbody td {
+  text-align: center;
+  width: 80px;
+}
+
+table.head2head span {
+  cursor: pointer;
+}
+
+table.head2head ul {
+  padding-left: 2px;
+  padding-right: 2px;
+  list-style: none;
+  text-align: left;
+  border: 1px solid black;
+  background: #590b12;
+  display: none;
+}
+
+table.head2head li {
+  white-space: nowrap;
+}
+
+/* home page */
+
+div.sidebar {
+  float: right;
+  width: 150px;
+}
+
+div.latest {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1ex;
+  border: 1px solid #000000;
+  background: #d2dcde;
+  width: 150px;
+  float: right;
+  text-align: left;
+}
+
+div.latest h1 {
+  margin: 0;
+  padding: 2px;
+  background: #0c3d4d;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}
+
+div.latest p {
+  font-style: italic;
+}
+
+div.latest ul {
+  list-style: none;
+  padding: 2px;
+}
+
+div.latest hr {
+  height: 1px;
+  background: #000000;
+}
+
+div.news {
+  width: 580px;
+}
+
+div.news h1 {
+  display: none;
+}
+
+div.news hr {
+  display: none;
+  height: 0;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+div.message h2 {
+  font-size: 120%;
+  border: 0;
+  margin: 0;
+  padding: 2px;
+}
+
+div.message {
+  background: #d2dcde;
+  border: 1px solid #000000;
+  margin-top: 1em;
+  margin-left: 1ex;
+}
+
+div.message div.head {
+  background: #0c3d4d;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+
+div.message p.date {
+  float: right;
+}
+
+div.message p {
+  padding: 0 2px;
+  text-align: left;
+}
+
+div.message p strong {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+}
+
+div.message p img {
+  float: right;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+/* recaps */
+
+.boxed {
+  border: 1px solid #0c3d4d;
+  padding: 3px;
+  width: 600px;
+}
+
+h2.boxed {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1ex;
+  background: url('GFFL/corner.gif') no-repeat #0c3d4d;
+  color: white;
+  border: 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+p.boxed {
+  margin-top: 1ex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background: #d2dcde;
+}
+
+p.boxed.no {
+  font-style: italic;
+}
+
+p.boxed strong {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+}
+
+p.boxed .edit {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 1ex;
+  float: right;
+}
+
+p.boxed img {
+  float: right;
+}
+
+/* general table styles */
+
+table {
+  border-collapse: collapse;
+  background: url('GFFL/corner.gif') no-repeat #0c3d4d;
+  margin: 4px;
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #0c3d4d;
+  padding: 3px 2px;
+  margin: 1px;
+}
+
+tbody td, tbody th {
+  background: #d2dcde;
+}
+
+thead td, thead th, tfoot td, tfoot th {
+  border: 0;
+  border-right: 1px solid #0c3d4d;
+}
+
+thead td, thead th,
+tfoot td, tfoot th,
+tr.admin td, tr.admin th {
+  color: #ffffff;
+}
+
+tr.admin td, tr.admin th {
+  background: #0c3d4d;
+}
+
+tr.admin a {
+  color: white;
+}
+
+table.float {
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+table.floatr {
+  float: right;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+br.float {
+  clear: both;
+}
+
+/* player profile */
+
+dl.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border: 1px solid #0c3d4d;
+  background: #d2dcde;
+}
+
+dl.profile dt {
+  font-weight: bold;
+  border-right: 1px solid #0c3d4d;
+  background: #0c3d4d;
+  color: white;
+  padding: 2px;
+  float: left;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 4px;
+  text-align: left;
+}
+
+dl.profile dd {
+  padding: 2px;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+}
+
+dl.profile img {
+  vertical-align: top;
+  margin: 1px;
+}
+
+p.profile {
+  margin-top: 1ex;
+  background: #d2dcde;
+  border: 1px solid #0c3d4d;
+  width: 396px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 2px;
+}
+
+/* score tables */
+
+table.score {
+  width: 350px;
+}
+
+table.score.extended {
+  width: 650px;
+}
+
+table.score.extended th.game {
+  width: 75px;
+}
+
+table.score.extended th.game {
+  width: 150px;
+}
+
+table.score.extended thead td {
+  background: #0c3d4d;
+}
+
+table.score thead th {
+  border-top: 0;
+  font-weight: bold;
+  text-align: center;
+  width: 30px;
+}
+
+table.score thead td {
+  padding-left: 7px;
+  font-weight: normal;
+  text-align: left;
+  width: 150px;
+}
+
+table.score tbody th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.score tbody th span.record {
+  font-weight: normal;
+}
+
+table.score tbody td {
+  font-weight: normal;
+  text-align: center;
+}
+
+table.score tbody td.final {
+  color: #000000;
+  font-weight: bold;
+}
+
+table.score tbody.stats td {
+  text-align: left;
+}
+
+table.score em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* weekly leaders */
+
+table.leaders {
+  margin-top: 1em;
+  margin-bottom: 0;
+  width: 235px;
+}
+
+table.leaders tbody th {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.leaders tbody td {
+  text-align: right;
+  width: 4ex;
+}
+
+table.leaders tbody td.image {
+  text-align: center;
+  width: 60px;
+}
+
+table.leaders img {
+  width: 60px;
+}
+
+/* box score - team stats */
+
+table.boxteam {
+  margin-bottom: 1em;
+}
+
+table.boxteam thead th {
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+  border-top: 0;
+}
+
+table.boxteam thead td {
+  width: 200px;
+  padding-left: 7px;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxteam tbody td {
+  font-weight: bold;
+  text-align: right;
+}
+
+table.boxteam tbody th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxteam tbody tr.sub th {
+  font-weight: normal;
+  padding-left: 2em;
+}
+
+table.boxteam tbody tr.sub td {
+  font-weight: normal;
+}
+
+/* box score - individual stats */
+
+table.boxind {
+  width: 360px;
+}
+
+table.boxind.head td {
+  background: url('GFFL/corner.gif') no-repeat #0c3d4d;
+  border-width: 0 1px 1px 0;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table.boxind thead td {
+  padding-left: 7px;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.boxind thead th {
+  border-top: 0;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+  white-space: nowrap;
+}
+
+table.boxind tbody th {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.boxind tbody td {
+  font-weight: normal;
+  text-align: right;
+}
+
+table.boxind tbody tr.no td {
+  text-align: left;
+}
+
+/* standings table */
+
+table.standings {
+  width: 730px;
+}
+
+table.standings tr.spacer td {
+  height: 1ex;
+  border: 0;
+  background: #ffffff;
+}
+
+table.standings tbody.head th {
+  background: #0c3d4d;
+  color: white;
+  text-align: center;
+}
+
+table.standings tbody th {
+  text-align: left;
+}
+
+table.standings tbody td {
+  text-align: center;
+}
+
+/* stats tables */
+
+table.stats tbody td {
+  font-weight: normal;
+  text-align: center;
+}
+
+table.stats tbody.filter td {
+  text-align: center;
+}
+
+table.stats tbody td.pos {
+  text-align: center;
+}
+
+table.stats tbody td.name,
+table.stats tbody td.team {
+  text-align: left;
+}
+
+table.stats tbody td.order {
+  background: #0c3d4d;
+  color: white;
+}
+
+table.stats tbody.filter th,
+table.stats tbody.filter td,
+table.stats tbody.header th,
+table.stats tbody tr.user th,
+table.stats tbody tr.user td,
+table.stats tr.user a {
+  background: #0c3d4d;
+  color: white;
+}
+
+/* form styles */
+
+input, select, textarea {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+textarea {
+  width: 400px;
+  font-family: Arial, helvetica, sans-serif;
+}
+
+input.submit {
+  background: #0c3d4d;
+  color: white;
+  border-top: 1px solid #186b8c;
+  border-left: 1px solid #186b8c;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+input.radio, input.checkbox {
+  border: 0;
+}
+
+form dl {
+  clear: both;
+  margin: 3px 0;
+}
+
+form dt {
+  float: left;
+  text-align: right;
+  width: 9em;
+}
+
+form dd {
+  margin-left: 9.24em;
+  text-align: left;
+}
+
+/* news tables */
+
+table.news {
+  width: 600px;
+}
+
+table.news .actions {
+  width: 50px;
+  text-align: center;
+}
+
+table.news .date {
+  width: 150px;
+  text-align: center;
+}
+
+/* diff tables */
+
+table.diff {
+  width: 740px;
+}
+
+table.diff td {
+  width: 350px;
+}
+
+table.diff td.line {
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  background: #590b12;
+}
+
+/* teams tables */
+
+table.teams {
+  width: 350px;
+}
+
+table.teams tbody th {
+  width: 225px;
+  text-align: left;
+}
+
+table.teams tbody td {
+  width: 125px;
+}
+
+/* team schedule */
+
+table.teamsked tbody td {
+  text-align: center;
+}
+
+table.teamsked tbody th {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* pickem schedule/results/standings */
+
+table.picksked input,
+table.picksked .pick,
+table.picksked tfoot td {
+  text-align: center;
+}
+
+table.pickres thead td,
+table.pickres tfoot td {
+  text-align: center;
+  font-size: 80%;
+}
+
+table.pickres tbody td {
+  font-style: normal;
+  text-align: center;
+  color: #d2dcde;
+}
+
+table.pickres tbody td.pos,
+table.pickres tbody td.points,
+table.pickres tbody td.record {
+  text-align: right;
+}
+
+table.pickres tbody td.name {
+  text-align: left;
+}
+
+table.pickres tbody td.right {
+  color: #186b8c;
+}
+
+table.pickres tbody td.away {
+  background: #ffffff;
+}
+
+table.pickres em {
+  font-style: normal;
+  font-size: 80%;
+}
+
+table.pickres tr.user td {
+  background: #0c3d4d;
+  color: #ffffff;
+}
+
+/* roster table */
+
+table.roster tbody th {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.roster tbody td {
+  text-align: center;
+}
+
+div.roster {
+  width: 740px;
+  height: 64em;
+  border: 1px solid black;
+  background: #d2dcde;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.roster div {
+  left: 10px;
+  position: absolute;
+  width: 80px;
+  height: 7em;
+  border: 0;
+  background: url('GFFL/corner.gif') no-repeat #0c3d4d;
+  color: white;
+/*  overflow: hidden; */
+}
+
+div.roster p {
+  font-weight: bold;
+}
+
+div.roster div.info {
+  display: none;
+  border: 1px solid black;
+  background: #ffffcc;
+  color: black;
+  width: 130px;
+  height: auto;
+  z-index: 300;
+  padding: 0 2px 2px 2px;
+/*  position: absolute;
+  top: 100px;
+  left: 100px; */
+}
+
+div.roster ol, div.roster ul {
+  list-style: none;
+}
+
+div.info img {
+  float: left;
+  margin-right: 2px;
+}
+
+div.info li {
+  text-align: left;
+}
+
+div.roster li {
+  cursor: pointer;
+}
+
+div.roster div.qb {
+  margin-top: 40em;
+  margin-left: 287px;
+}
+
+div.roster div.hb {
+  margin-top: 56em;
+  margin-left: 287px;
+}
+
+div.roster div.fb {
+  margin-top: 48em;
+  margin-left: 287px;
+}
+
+div.roster div.wr1 {
+  margin-top: 36em;
+  margin-left: 655px;
+}
+
+div.roster div.wr2 {
+  margin-top: 32em;
+  margin-left: 4px;
+}
+
+div.roster div.te {
+  margin-top: 32em;
+  margin-left: 542px;
+}
+
+div.roster div.lt {
+  margin-top: 32em;
+  margin-left: 117px;
+}
+
+div.roster div.lg {
+  margin-top: 32em;
+  margin-left: 202px;
+}
+
+div.roster div.c {
+  margin-top: 32em;
+  margin-left: 287px;
+}
+
+div.roster div.rg {
+  margin-top: 32em;
+  margin-left: 372px;
+}
+
+div.roster div.rt {
+  margin-top: 32em;
+  margin-left: 457px;
+}
+
+div.roster div.re {
+  margin-top: 24em;
+  margin-left: 127px;
+}
+
+div.roster div.rdt {
+  margin-top: 24em;
+  margin-left: 257px;
+}
+
+div.roster div.ldt {
+  margin-top: 24em;
+  margin-left: 387px;
+}
+
+div.roster div.le {
+  margin-top: 24em;
+  margin-left: 517px;
+}
+
+div.roster div.rolb {
+  margin-top: 16em;
+  margin-left: 122px;
+}
+
+div.roster div.mlb {
+  margin-top: 14em;
+  margin-left: 302px;
+}
+
+div.roster div.lolb {
+  margin-top: 16em;
+  margin-left: 472px;
+}
+
+div.roster div.cb1 {
+  margin-top: 22em;
+  margin-left: 655px;
+}
+
+div.roster div.cb2 {
+  margin-top: 22em;
+  margin-left: 4px;
+}
+
+div.roster div.fs {
+  margin-top: 1em;
+  margin-left: 202px;
+}
+
+div.roster div.ss {
+  margin-top: 4em;
+  margin-left: 402px;
+}
+
+div.roster div.k {
+  margin-top: 56em;
+  margin-left: 570px;
+}
+
+div.roster div.p {
+  margin-top: 56em;
+  margin-left: 655px;
+}
+
+/* paypal */
+
+form.paypal {
+  margin: 0;
+}
+
+form.paypal input.submit {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: #ddeeee;
+  background: #186b8c;
+  font-family: Arial, helvetica, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* records */
+
+.index {
+  margin-top: 1em;
+  width: 720px;
+  border: 1px solid #0c3d4d;
+  background: #ffffff;
+  padding: 2px 3px;
+}
+
+.index ul {
+  list-style: none;
+}
+
+.index li {
+  display: block;
+  float: left;
+  width: 350px;
+  text-align: left;
+}
+
+.records h1 {
+  clear: both;
+}
+
+.records table {
+  width: 230px;
+}
+
+.records td.image {
+  vertical-align: top;
+  text-align: center;
+  width: 60px;
+}
+
+.records td.value {
+  text-align: right;
+  width: 30px;
+}
+
+.records td {
+  width: 140px;
+}
+
+/* calendar */
+
+div.calendar h1 {
+  text-align: left;
+}
+
+div.calendar ul {
+  margin-left: 2em;
+  list-style: none;
+  text-align: left;
+}
+
+/* static draft page */
+
+div.draft {
+  margin: 0 auto;
+  width: 540px;
+}
+
+div.draft p {
+  text-align: justify;
+}
+
+div.draft ul {
+  margin-left: 2em;
+  list-style: none;
+  text-align: center;
+}
+
+div.draft li {
+  display: inline;
+}
+
+div.draft h2 {
+  margin-top: 2em;
+  margin-bottom: 1ex;
+}
+
+div.draft h3 {
+  margin-top: 2em;
+  margin-bottom: 1ex;
+}
+
+div.draft .center {
+  text-align: center;
+}
+
+div.analysis_nfc {
+  color: #000099;
+}
+
+div.draft dt {
+  font-weight: bold;
+  margin-left: 0;
+  text-align: justify;
+}
+
+div.draft dd {
+  margin-left: 3em;
+  text-align: justify;
+}
